@@ -1,0 +1,71 @@
+.screen {
+    margin: 10px;
+    width: 395px;
+    height: 700px;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.logo{
+    margin-top: 70px;
+    width: 50%;
+}
+.title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+.main-screen{
+    margin-top: 10px;
+    width: 385px;
+    height: 570px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.type-space{
+    width: 80%;
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    box-shadow: 1px 2px 2px 1px #c7d3d6;
+    padding: 5px;
+}
+.bottom-button{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #c7d3d6;
+}
+.button{
+    text-align: center;
+    padding: 5px;
+}
+.button i{
+    color: #c7d3d6;
+}
+.choice-field{
+    margin: 10px;
+    border: 1px solid #c7d3d6;
+    text-align: left;
+    border-radius: 10px;
+    color: blueviolet;
+    padding: 5px;
+}
+.option-area{
+    margin-top: 30px;
+}
+.description{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.list-day{
+    list-style-type: none;
+}
+.list-day li{
+    border: 1px solid #c7d3d6;
+    padding: 5px;
+}
+.list-day input{
+    border: none;
+}

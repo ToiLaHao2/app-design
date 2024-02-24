@@ -1,28 +1,48 @@
 .screen {
-    margin: 10px;
-    width: 395px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 323px;
     height: 700px;
     border: 5px solid black;
-    border-radius: 15px;
+    border-radius: 40px;
     text-align: center;
 }
-.logo{
+.top-bar {
+    height: 5%;
+}
+.main-screen {
+    margin-top: 10px;
+    width: 99.9%;
+    height: 85%;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.main-screen-2 {
+    margin-top: 10px;
+    width: 99.9%;
+    height: 85%;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.bottom-area {
+    height: 10%;
+}
+.logo {
     margin-top: 70px;
     width: 50%;
 }
-.title{
+.title {
     margin-top: 30px;
     text-align: center;
     font-size: 24px;
 }
-.main-screen{
-    margin-top: 10px;
-    width: 385px;
-    height: 570px;
-    background-color: aliceblue;
-    padding: 10px;
+.dynamic-island {
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 4px;
 }
-.type-space{
+.type-space {
     width: 80%;
     margin-top: 40px;
     height: 40px;
@@ -30,42 +50,181 @@
     border-color: antiquewhite;
     box-shadow: 1px 2px 2px 1px #c7d3d6;
     padding: 5px;
+    font-size: 14px;
 }
-.bottom-button{
+.bottom-button {
     text-align: right;
     margin-right: 10px;
-    margin-top: 10px;
-    color: #c7d3d6;
+    margin-top: 5px;
+    color: cadetblue;
 }
-.button{
-    text-align: center;
-    padding: 5px;
+.bottom-controller {
+    background-color: black;
+    border: 2px solid black;
+    width: 35%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
 }
-.button i{
-    color: #c7d3d6;
-}
-.choice-field{
+.choice-field {
     margin: 10px;
     border: 1px solid #c7d3d6;
     text-align: left;
+    font-size: 14px;
     border-radius: 10px;
-    color: blueviolet;
+    color: cadetblue;
     padding: 5px;
 }
-.option-area{
+.option-area {
     margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.description{
+.description {
     margin-top: 10px;
     font-size: 14px;
 }
-.list-day{
-    list-style-type: none;
+.option-area-2 {
+    background-color: white;
+    border-radius: 10px;
 }
-.list-day li{
-    border: 1px solid #c7d3d6;
-    padding: 5px;
+.option {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2px;
+    color: cadetblue;
 }
-.list-day input{
+.day {
+    margin: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.option input {
+    width: 10%;
+    text-align: center;
     border: none;
+    color: cadetblue;
+    border-bottom: 3px solid cadetblue;
+    font-weight: 600;
+}
+.subject-name {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 6%;
+    padding: 5px;
+    text-align: center;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+.subject-name p {
+    margin-left: 10px;
+    color: cadetblue;
+}
+.option-area-3 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.option-1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: cadetblue;
+}
+.option-1 input {
+    margin-left: 15%;
+    width: 50%;
+    text-align: right;
+    border: none;
+    color: cadetblue;
+    font-weight: 500;
+}
+.color-circle {
+    margin-top: 5px;
+    margin-left: 60%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+.function {
+    margin: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.choice-field-1 {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px 10px 0px;
+    border-radius: 10px;
+}
+.add-button {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.function-add {
+    color: cadetblue;
+}
+.choice-field-2 {
+    padding: 5px;
+    text-align: left;
+    background-color: white;
+}
+.title-1{
+    font-size: 20px;
+}
+.process-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.choice-field-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.choice-field-3 p {
+    text-align: left; 
+    background-color: #c7d3d6;
+    padding: 0px 0px 2px 5px;
+}
+.subject-field{
+    background-color: white;
+    border-radius: 10px;
+}
+.subject-show-name{
+    text-align: left;
+    margin: 2px;
+    margin-left: 4px;
+}
+.subject-time{
+    text-align: right;
+    margin: 2px;
+    margin-right: 4pxF;
 }

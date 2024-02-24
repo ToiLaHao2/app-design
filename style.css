@@ -25,6 +25,22 @@
     background-color: aliceblue;
     padding: 10px;
 }
+.main-screen-3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 99.9%;
+    height: 85%;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.main-screen-4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 99.9%;
+    height: 89%;
+    background-color: aliceblue;
+    padding: 10px;
+}
 .bottom-area {
     height: 10%;
 }

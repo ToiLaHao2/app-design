@@ -25,31 +25,192 @@
     background-color: aliceblue;
     padding: 10px;
 }
-.home-item{
+.animation {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+.register-avatar {
+    width: 70%;
+    font-size: 50px;
+    padding: 40px;
+    border-radius: 50%;
+    border-radius: 1px solid black;
+    background-color: #c7d3d6;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.register-avatar::before {
+    font-family: "fontawesome";
+    content: "\f406";
+}
+.register-avatar::after {
+    font-family: "fontawesome";
+    content: "\f030";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 100px;
+}
+.create-profile-form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-bar-main-screen {
+    padding: 10px;
+}
+.notification {
+    font-size: 20px;
+}
+.notification i {
+    font-weight: bold;
+    color: green;
+    position: relative;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.notification i::after {
+    font-family: "fontawesome";
+    content: "\f111";
+    font-size: 10px;
+    position: absolute;
+    color: red;
+    left: 60%;
+}
+.recycle-token span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: yellowgreen;
+}
+.recycle-token i {
+    font-size: 20px;
+    color: green;
+}
+.user-infos {
+    margin-top: 40px;
+    text-align: left;
+}
+.user-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+.title {
+    font-size: 26px;
+}
+.user-info {
+    color: black;
+}
+.prize-catalogue {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    background-color: #e8ebed;
+    border-radius: 15px;
+}
+.home-item {
     padding: 15px;
     margin: 10px;
+    height: 130px;
     background-color: #c7d3d6;
     border-radius: 15px;
     text-align: center;
+}
+.home-item a {
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 .home-item i {
     margin-top: 15px;
     font-size: 30px;
     color: green;
 }
-.report-item p{
+.prize-item {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.prize-item i {
+    font-size: 40px;
+    color: blueviolet;
+}
+.prize-item:nth-child(odd) {
+    background-color: green;
+}
+.prize-item:nth-child(even) {
+    background-color: #9baf8e;
+}
+.prize-name {
+    margin-left: auto;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #4ea72e;
+    color: white;
+}
+.prize-token {
+    text-align: end;
+    font-weight: bold;
+    color: #ffff5c;
+}
+.prize-token::before {
+    font-family: "fontawesome";
+    content: "\f1b8";
+    padding-left: 5px;
+
+    margin-right: 5px;
+}
+.waste-education {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    background-color: #e8ebed;
+    border-radius: 15px;
+}
+.waste-title{
+    border-bottom: 1px solid;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+.lesson {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.lesson i {
+    font-size: 28px;
+    color: #4ea72e;
+}
+.lesson-name {
+    margin-left: auto;
+    border-radius: 15px;
+    background-color: #4ea72e;
+    color: white;
+}
+.report-item p {
     text-align: left;
     font-weight: bold;
 }
-.report-item i{
+.report-item i {
     background-color: #c7d3d6;
     padding: 20px;
     border-radius: 15px;
 }
-.report-item textarea{
+.report-item textarea {
     height: 200px;
 }
-.submit-button{
+.submit-button {
     margin-top: 20px;
     background-color: greenyellow;
     padding: 10px;
@@ -72,7 +233,7 @@
     background-color: aliceblue;
     padding: 10px;
 }
-.home-functions{
+.home-functions {
     margin-top: 60px;
 }
 .bottom-area {
@@ -85,9 +246,9 @@
 .head-title {
     padding: 30px;
     text-align: center;
-    font-size: 40pxpx;
+    font-size: 40px;
 }
-.login-form{
+.login-form {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -113,15 +274,15 @@
     margin-top: 5px;
     color: cadetblue;
 }
-.bottom-navigator{
+.bottom-navigator {
     padding: 10px;
     height: 50px;
 }
-.bottom-tab{
+.bottom-tab {
     text-align: center;
     border-right: 2px solid #c7d3d6;
 }
-.bottom-tab a{
+.bottom-tab a {
     text-decoration: none;
     color: black;
 }
@@ -261,7 +422,7 @@
     text-align: left;
     background-color: white;
 }
-.title-1{
+.title-1 {
     font-size: 20px;
 }
 .process-circle {
@@ -277,20 +438,20 @@
     margin-bottom: 10px;
 }
 .choice-field-3 p {
-    text-align: left; 
+    text-align: left;
     background-color: #c7d3d6;
     padding: 0px 0px 2px 5px;
 }
-.subject-field{
+.subject-field {
     background-color: white;
     border-radius: 10px;
 }
-.subject-show-name{
+.subject-show-name {
     text-align: left;
     margin: 2px;
     margin-left: 4px;
 }
-.subject-time{
+.subject-time {
     text-align: right;
     margin: 2px;
     margin-right: 4pxF;

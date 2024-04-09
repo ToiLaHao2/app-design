@@ -1,0 +1,66 @@
+.system-title{
+    color: green;
+}
+.logo{
+    width: 17%;
+}
+.login-area {
+    text-align: center;
+    padding: 10%;
+}
+.login-form {
+    padding: 20px;
+}
+.input-p {
+    margin: 10px;
+}
+.input-p label {
+    margin-right: 5px;
+    width: 45%;
+    text-align: right;
+}
+.admin {
+    font-size: 40px;
+    padding: 40px;
+}
+.admin i {
+    margin-right: 10px;
+    color: green;
+    font-size: 40px;
+}
+.report {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid green;
+}
+.report img {
+    width: 100px;
+    height: 100px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+}
+.status {
+    font-size: 19px;
+    font-weight: 400;
+    padding: 5px;
+}
+.description {
+    font-size: 19px;
+    font-weight: 400;
+    padding: 5px;
+}
+.report-detail {
+    padding: 10px;
+    border: 1px solid black;
+}
+.report-title {
+    color: green;
+    margin: 5px;
+}
+.report-description {
+    color: red;
+    margin: 5px;
+}
